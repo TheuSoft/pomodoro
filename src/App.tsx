@@ -1,5 +1,7 @@
 import { Container } from './components/Container';
-import { Heading } from './components/Heading';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
+
 import './styles/global.css';
 import './styles/theme.css';
 
@@ -7,10 +9,10 @@ export function App() {
   return (
     <>
       <Container>
-        <Heading>Menu</Heading>
+        <Logo></Logo>
       </Container>
       <Container>
-        <Heading>Timer</Heading>
+        <Menu></Menu>
       </Container>
     </>
   );
